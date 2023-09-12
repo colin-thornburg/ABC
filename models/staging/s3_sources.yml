@@ -1,0 +1,63 @@
+#
+#  Do you have data in S3? Do you want to access this data within Snowflake from dbt?
+#  Well you can, with the dbt-external-tables package!
+#
+#  GUIDE
+#
+#  (1) Create a Snowflake external stage, e.g.,:
+#
+#        create or replace stage boerse url='s3://deutsche-boerse-eurex-pds/' file_format = (type=csv)
+# 
+#  (2) Add the dbt-external-tables package in packages.yml
+# 
+#  (3) Execute `dbt run-operation stage_external_sources` to create the external tables,
+#      and to refresh them later. (Add this to your dbt Cloud Job.)
+#
+#  (4) Access the source data from dbt, e.g.,
+#
+#        select * from {{ source('deutsche_boerse', 'trading_data') }}
+# 
+#  OTHER EXTERNAL TABLES
+#
+#  This package works with Snowpipes, GCS buckets, Redshift Spectrum tables, and more!
+#
+#  MORE INFO
+#
+#  - dbt package: https://github.com/dbt-labs/dbt-external-tables/
+#  - external tables: https://docs.snowflake.com/en/user-guide/tables-external-intro.html
+#  - sample data: https://registry.opendata.aws/deutsche-boerse-pds/
+#
+
+version: 2
+
+sources:
+  - name: external_source
+    description: This is an example of using external sources
+    database: colint_dev
+    schema: dbt_cthornburg
+
+    tables:
+      - name: jaffle_shop_customers
+        description: >
+          <placeholder description>
+
+        external:
+          location: "@s3_data"
+          file_format: "(type=csv field_delimiter=',' skip_header=1)"
+          auto_refresh: false
+
+          partitions:
+            - name: source_file_name
+              data_type: varchar
+              expression: metadata$filename
+
+        columns:
+          - name: ID
+            data_type: TEXT
+            description: "ISIN of the security"
+          - name: First_Name
+            data_type: TEXT
+            description: "The product market segment, following the convention on http://www.eurexchange.com"
+          - name: Last_Name
+            data_type: TEXT
+            description: "The underlying security"
