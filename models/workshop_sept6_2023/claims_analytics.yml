@@ -2,6 +2,9 @@ version: 2
 
 models:
   - name: claims_analytics
+    config:
+      contract:
+        enforced: true
     group: healthcare_analytics
     access: public
     description: "The claims_analytics model provides a comprehensive view of healthcare claims data, bringing together information from the dimension and fact tables. It helps in understanding the claim patterns and facilitates healthcare management and policy formulation."
