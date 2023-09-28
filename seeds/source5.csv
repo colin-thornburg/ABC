@@ -1,0 +1,6 @@
+business_key,attribute,source,Load_Timestamp
+600,A1,source5,2023-09-27 08:00:00
+700,B1,source5,2023-09-27 08:05:00
+800,C1,source5,2023-09-27 08:10:00
+900,D1,source5,2023-09-27 08:15:00
+901,E1,source5,2023-09-27 08:20:00
