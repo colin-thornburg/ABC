@@ -18,4 +18,3 @@ select
     customers.most_recent_order_date
 from orders
 left join customers on orders.customer_id = customers.customer_id
-
