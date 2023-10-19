@@ -1,0 +1,11 @@
+Comp_ID,Property_ID,Lease_Price,Lease_Date,Address
+C1,P1,20000,2021-02-01,"123 Main Street"
+C2,P2,15000,2022-06-01,"456 Oak Drive"
+C3,P3,18000,2021-09-01,"789 Pine Ln."
+C4,P4,17000,2020-07-01,"321 Birch St."
+C5,P5,16000,2019-12-01,"654 Maple Dr."
+C6,P6,19000,2020-03-01,"987 Cedar lane"
+C7,P7,21000,2021-06-01,"135 Spruce Street"
+C8,P8,20000,2022-02-01,"246 Palm Drive"
+C9,P9,15500,2019-09-01,"864 Fern lane"
+C10,P10,14000,2020-11-01,"579 Willow Ave."

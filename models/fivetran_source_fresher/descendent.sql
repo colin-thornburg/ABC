@@ -1,0 +1,1 @@
+Select * from {{ source('fivetran', 'revenue') }}

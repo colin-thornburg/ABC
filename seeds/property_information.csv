@@ -1,0 +1,11 @@
+Property_ID,Property_Name,Market,Property_Type,Floor_Area,Address
+P1,Property X,Market1,Commercial,15000,"123 Main Street"
+P2,Property Y,Market2,Retail,8000,"456 Oak Dr."
+P3,Property Z,Market3,Industrial,20000,"789 Pine Ln."
+P4,Property A,Market4,Residential,12000,"321 Birch Street"
+P5,Property B,Market5,Retail,10000,"654 Maple Drive"
+P6,Property C,Market6,Commercial,18000,"987 Cedar lane"
+P7,Property D,Market7,Industrial,22000,"135 Spruce St."
+P8,Property E,Market8,Residential,14000,"246 Palm Drive"
+P9,Property F,Market9,Commercial,16000,"864 Fern Lane"
+P10,Property G,Market10,Retail,2000,"579 Willow Avenue"

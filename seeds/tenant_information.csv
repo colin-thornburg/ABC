@@ -1,0 +1,11 @@
+Tenant_ID,Property_ID,Tenant_Name,Industry,Lease_Start_Date,Lease_End_Date,Address
+T1,P1,Tenant A,Retail,2021-01-01,2023-01-01,"123 Main St"
+T2,P2,Tenant B,Finance,2022-05-01,2024-05-01,"456 Oak Drive"
+T3,P3,Tenant C,Tech,2021-08-01,2023-08-01,"789 Pine Ln"
+T4,P4,Tenant D,Health,2020-06-01,2022-06-01,"321 Birch St."
+T5,P5,Tenant E,Manufacturing,2019-12-01,2021-12-01,"654 Maple Dr."
+T6,P6,Tenant F,Food,2020-03-01,2022-03-01,"987 Cedar Lane"
+T7,P7,Tenant G,Retail,2021-05-01,2023-05-01,"135 Spruce st"
+T8,P8,Tenant H,Education,2022-01-01,2024-01-01,"246 Palm Dr"
+T9,P9,Tenant I,Automotive,2019-08-01,2021-08-01,"864 Fern ln"
+T10,P10,Tenant J,Finance,2020-11-01,2022-11-01,"579 Willow Ave."
