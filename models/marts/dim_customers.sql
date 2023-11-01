@@ -14,7 +14,6 @@ orders as (
     select
         order_id,
         customer_id,
-        order_date,
         state
 
     from {{ ref('stg_orders') }}
