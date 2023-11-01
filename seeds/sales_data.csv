@@ -1,0 +1,6 @@
+person_id,first_name,last_name,email,sale_amount,sale_date
+1,John,Doe,john.doe@example.com,100.50,2023-11-01 14:32:45
+2,Jane,Smith,jane.smith@example.com,150.75,2023-11-01 15:10:30
+3,Robert,Brown,robert.brown@example.com,80.25,2023-11-02 09:45:15
+4,Emily,Johnson,emily.johnson@example.com,120.00,2023-11-02 11:20:50
+5,Michael,Williams,michael.williams@example.com,90.10,2023-11-03 13:05:25
