@@ -13,6 +13,10 @@ sources:
               - unique
               - not_null
           - name: first_name
+            tests:
+              - dbt_expectations.expect_column_value_lengths_to_be_between:
+                  min_value: 1 # (Optional)
+                  max_value: 40 # (Optional)
           - name: last_name
 
       - name: orders
