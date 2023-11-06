@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sales_stream
+    database: colint_dev
+    schema: dbt_cthornburg
+
+    tables:
+      - name: sales_data_stream

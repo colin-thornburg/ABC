@@ -7,7 +7,7 @@
       unique_key='id',
 
       strategy='timestamp',
-      updated_at='run_timestamp',
+      updated_at='load_timestamp',
     )
 }}
 
