@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: LIVE
+    database: raw  # Update the database name as needed
+    schema: LIVE  # Update the schema name as needed
+    tables:
+      - name: FACT_AR_INVOICE_LINEITEM
+      - name: FACT_ACCOUNTING_DOCUMENT_HEADER
+      - name: FACT_AR_INVOICE_BILLING_ITEMS
+      - name: dim_customer
+      - name: dim_payment_terms
+      - name: FACT_ACCOUNTING_DOCUMENT_LINE_ITEMS
+
+  - name: fdh_slt_raw
+    database: raw  # Update the database name as needed
+    schema: fdh.slt_raw  # Update the schema name as needed
+    tables:
+      - name: dim_xxetn_map_unit_sap_ora
+      - name: dim_bu_heirarchy
