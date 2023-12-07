@@ -11,6 +11,10 @@ sources:
           warn_after: {count: 10000, period: day}
         columns:
           - name: id
+            tests:
+            - dbt_utils.accepted_range:
+                min_value: 0
+                inclusive: false
           - name: order_id
           - name: payment_method
           - name: state
