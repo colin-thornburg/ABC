@@ -10,3 +10,13 @@ sources:
         freshness:
           warn_after: {count: 6, period: hour}
         loaded_at_field: load_timestamp
+  
+  - name: source_fresher_demo
+    description: To demo source freshness
+    database: colint_prod
+    schema: prod
+    tables:
+      - name: trigger_new_orders
+        freshness:
+          warn_after: {count: 6, period: hour}
+        loaded_at_field: order_date::timestamp
