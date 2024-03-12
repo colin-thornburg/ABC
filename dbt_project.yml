@@ -24,6 +24,11 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+# vars:
+#   use_common_masking_policy_db: "True"
+#   common_masking_policy_db: "COLINT_DEV"
+#   common_masking_policy_schema: "MASKED_DATA"
+
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
@@ -40,4 +45,8 @@ models:
       materialized: view
     BI:
       materialized: table
+    sensitive:
+      +materialized: view
+      +secure: true
+
 
