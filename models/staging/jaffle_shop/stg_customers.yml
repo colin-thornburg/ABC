@@ -12,11 +12,12 @@ models:
         tests:
           - not_null
       - name: last_name
+        meta:
+          masking_policy: temp
         description: The customer's last name as recorded in the source data.
         tests:
           - not_null
-        meta:
-          masking_policy: test_mask
+        
       - name: surr_col
         description: A generated surrogate key, uniquely identifying each customer based on their name, facilitating easier data integration and uniqueness across tables.
         tests:
