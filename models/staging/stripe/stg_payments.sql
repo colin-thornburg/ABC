@@ -1,5 +1,6 @@
 {{ config(
-    tags=["finance"]
+    tags=["finance"],
+    query_tag = 'dbt_special'
 ) }}
 
 select
