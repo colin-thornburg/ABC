@@ -26,6 +26,9 @@ sources:
               - not_null
           - name: user_id
           - name: order_date
+            tests:
+            - dbt_expectations.expect_column_values_to_be_of_type:
+                column_type: date
           - name: state
           - name: _etl_loaded_at
 
