@@ -2,9 +2,11 @@ version: 2
 
 models:
   - name: dim_customers
+    latest_version: 1
     group: sales_analytics
     access: public
     description: "The dim customers model combines information from customer and order data, providing key insights into customers' ordering behavior, including the dates of their first and most recent orders, as well as the total number of orders they have placed."
+    deprecation_date: 2024-12-31 00:00:00.00+00:00
     config:
       contract:
         enforced: false
@@ -30,3 +32,12 @@ models:
         description: "The total number of orders placed by the customer."
         tests:
           - not_null
+
+    versions:
+      - v: 1
+        config:
+          alias: dim_customers
+      - v: 2
+        columns:
+          - include: all
+            exclude: [first_name]
