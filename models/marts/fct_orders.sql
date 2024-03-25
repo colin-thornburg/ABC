@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized='view',
+        snowflake_warehouse='xsmall'
+    )
+}}
+
+
 with
 orders as (select * from {{ ref("stg_orders") }}),
 
