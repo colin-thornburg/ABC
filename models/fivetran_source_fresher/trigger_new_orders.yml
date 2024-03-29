@@ -1,0 +1,7 @@
+models:
+  - name: trigger_new_orders
+    columns:
+      - name: ID
+        tests:
+          - unique
+      - name: ORDER_DATE
