@@ -1,0 +1,17 @@
+Product 1, 2, 3 are in Source1
+
+Secondary sources for descriptions, etc that are in other tables to supplement via Product_ID
+
+Product 3, 4, 6 are in Source2
+
+Supplemented by the same, potentially different tables
+
+Product 5 in Source3 
+Supplemented by joined tables
+
+Process is update 1,2, and 3
+Then Source2 would update 4 and 6
+
+Then Product 5 would be updated from Source3
+
+If 1 process, else source 2 else source 3 then process
