@@ -1,0 +1,8 @@
+table_name,column_name,is_key_column
+users,id,1
+users,username,0
+users,email,0
+orders,order_id,1
+orders,user_id,0
+orders,product_id,0
+orders,order_date,0
