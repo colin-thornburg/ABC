@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: data_sample
+    columns:
+      - name: id
+        tests:
+          - dbt_expectations.expect_column_to_exist
+
+      - name: name
+        tests:
+          - dbt_expectations.expect_column_to_exist
+
+      - name: email
+        tests:
+          - dbt_expectations.expect_column_to_exist
