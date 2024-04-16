@@ -1,0 +1,10 @@
+models:
+  - name: downstream_orders
+    columns:
+      - name: ID
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_DATE
+        tests:
+          - not_null
