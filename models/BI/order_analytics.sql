@@ -6,10 +6,10 @@ orders as (select * from {{ ref("fct_orders") }})
 select
     orders.order_id,
     orders.customer_id,
-    customers.first_name,
+    
     customers.last_name,
     orders.order_date,
-
+    orders.state as state,
     orders.payment_id,
     orders.payment_method,
     {{ format_dollars('amount') }} as amount,
