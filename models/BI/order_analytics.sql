@@ -9,7 +9,7 @@ select
     customers.first_name,
     customers.last_name,
     orders.order_date,
-    orders.state as state,
+
   
     orders.payment_method,
     {{ format_dollars('amount') }} as amount,
