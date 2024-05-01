@@ -2,8 +2,8 @@
     config(
         materialized='incremental',
         unique_key='surrogate_key',
-        incremental_strategy='delete+insert',
-        on_schema_change='append_new_columns'
+        incremental_strategy='merge',
+        on_schema_change='fail'
     )
 }}
 
