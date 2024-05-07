@@ -1,0 +1,8 @@
+question_order,title,identifier,scale_id,ccyys
+1,Student Engagement,core001,1,20219
+2,Class Participation,core002,1,20222
+3,Feedback Quality,core003,2,20226
+4,Course Material Relevance,core004,2,20229
+5,Instructor Accessibility,core005,3,20232
+6,Overall Satisfaction,op032,3,20236
+7,Interest in Subject,music1,14,20239

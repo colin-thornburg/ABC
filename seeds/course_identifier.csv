@@ -1,0 +1,31 @@
+unique_course_id,unique01,description,dept_abbr,course_number,course_session,ccyys,instruction_type,instruction_mode,instructor_uin_1,evaluation_start_date,evaluation_end_date,college_code,dept_unit_code,dept_name,attribute_flag
+101,1001,Introduction to Biology,BIO,101,001,202301,Lecture,In-Person,20001,2023-01-15,2023-05-10,C,BIO01,Biology Department,N
+102,1002,Calculus I,MATH,101,001,202301,Lecture,Online,20002,2023-01-15,2023-05-10,B,MATH01,Mathematics Department,Y
+103,1003,World History,HIST,101,001,202301,Lecture,Hybrid,20003,2023-01-15,2023-05-10,A,HIST01,History Department,N
+104,1004,General Chemistry,CHEM,101,001,202301,Lecture,In-Person,20004,2023-01-15,2023-05-10,C,CHEM01,Chemistry Department,Y
+105,1005,Principles of Accounting,ACCT,101,001,202301,Lecture,Online,20005,2023-01-15,2023-05-10,D,ACCT01,Accounting Department,N
+106,1006,Civil Engineering Basics,CE,101,001,202301,Lecture,Hybrid,20006,2023-01-15,2023-05-10,B,CE01,Civil Engineering Department,Y
+107,1007,Introduction to Programming,CS,101,001,202301,Lecture,In-Person,20007,2023-01-15,2023-05-10,B,CS01,Computer Science Department,N
+108,1008,Psychology Fundamentals,PSY,101,001,202301,Lecture,Online,20008,2023-01-15,2023-05-10,A,PSY01,Psychology Department,Y
+109,1009,Elementary Statistics,STAT,101,001,202301,Lecture,Hybrid,20009,2023-01-15,2023-05-10,D,STAT01,Statistics Department,N
+110,1010,Constitutional Law,LAW,101,001,202301,Lecture,In-Person,20010,2023-01-15,2023-05-10,E,LAW01,Law Department,Y
+111,1011,Marketing Principles,MKT,101,001,202301,Lecture,Online,20011,2023-01-15,2023-05-10,D,MKT01,Marketing Department,N
+112,1012,Structural Analysis,CE,102,001,202301,Lecture,Hybrid,20012,2023-01-15,2023-05-10,B,CE02,Civil Engineering Department,Y
+113,1013,Organic Chemistry,CHEM,102,001,202301,Lecture,In-Person,20013,2023-01-15,2023-05-10,C,CHEM02,Chemistry Department,N
+114,1014,Business Ethics,BUS,101,001,202301,Lecture,Online,20014,2023-01-15,2023-05-10,D,BUS01,Business Department,Y
+115,1015,Modern Art History,ART,101,001,202301,Lecture,Hybrid,20015,2023-01-15,2023-05-10,F,ART01,Art Department,N
+116,1016,Advanced Microbiology,BIO,201,001,202301,Lecture,In-Person,20016,2023-01-15,2023-05-10,C,BIO02,Biology Department,Y
+117,1017,Algorithms and Data Structures,CS,201,001,202301,Lecture,Online,20017,2023-01-15,2023-05-10,B,CS02,Computer Science Department,N
+118,1018,Social Psychology,PSY,201,001,202301,Lecture,Hybrid,20018,2023-01-15,2023-05-10,A,PSY02,Psychology Department,Y
+119,1019,Project Management,MGT,101,001,202301,Lecture,In-Person,20019,2023-01-15,2023-05-10,D,MGT01,Management Department,N
+120,1020,Educational Psychology,EDU,101,001,202301,Lecture,Online,20020,2023-01-15,2023-05-10,G,EDU01,Education Department,Y
+121,1021,Environmental Science,ENV,101,001,202301,Lecture,Hybrid,20021,2023-01-15,2023-05-10,C,ENV01,Environmental Studies Department,N
+122,1022,Public Speaking,COMM,101,001,202301,Lecture,In-Person,20022,2023-01-15,2023-05-10,A,COMM01,Communications Department,Y
+123,1023,Macroeconomics,ECON,101,001,202301,Lecture,Online,20023,2023-01-15,2023-05-10,D,ECON01,Economics Department,N
+124,1024,Physical Education,PE,101,001,202301,Lecture,Hybrid,20024,2023-01-15,2023-05-10,G,PE01,Physical Education Department,Y
+125,1025,Modern Dance,DANCE,101,001,202301,Lecture,In-Person,20025,2023-01-15,2023-05-10,F,DANCE01,Dance Department,N
+126,1026,Early American Literature,ENG,101,001,202301,Lecture,Online,20026,2023-01-15,2023-05-10,A,ENG01,English Department,Y
+127,1027,Contemporary Architecture,ARCH,101,001,202301,Lecture,Hybrid,20027,2023-01-15,2023-05-10,H,ARCH01,Architecture Department,N
+128,1028,Nursing Ethics,NURS,101,001,202301,Lecture,In-Person,20028,2023-01-15,2023-05-10,I,NURS01,Nursing Department,Y
+129,1029,Pharmacology,PHARM,101,001,202301,Lecture,Online,20029,2023-01-15,2023-05-10,J,PHARM01,Pharmacy Department,N
+130,1030,Advanced Fluid Mechanics,ME,201,001,202301,Lecture,Hybrid,20030,2023-01-15,2023-05-10,B,ME01,Mechanical Engineering Department,Y

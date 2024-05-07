@@ -1,0 +1,21 @@
+ut_eid,name_first,name_last,ut_uin,name_1,ut_primary_title,ut_primary_orgunit_name,role_1,ccyys
+E1001,John,Doe,900001,John Doe,Associate Professor,Department of Biology,Instructor,20219
+E1002,Jane,Smith,900002,Jane Smith,Senior Lecturer,Department of Mathematics,Assistant,20222
+E1003,Alice,Johnson,900003,Alice Johnson,Professor,Department of History,Instructor,20226
+E1004,Bob,Brown,900004,Bob Brown,Assistant Professor,Department of Chemistry,Assistant,20229
+E1005,Carol,Miller,900005,Carol Miller,Lecturer,Department of Accounting,Instructor,20232
+E1006,Dave,Wilson,900006,Dave Wilson,Associate Professor,Department of Civil Engineering,Assistant,20236
+E1007,Eve,Davis,900007,Eve Davis,Senior Lecturer,Department of Psychology,Instructor,20239
+E1008,Frank,Moore,900008,Frank Moore,Professor,Department of Biology,Assistant,20219
+E1009,Grace,Taylor,900009,Grace Taylor,Assistant Professor,Department of Mathematics,Instructor,20222
+E1010,Hank,Anderson,900010,Hank Anderson,Lecturer,Department of History,Assistant,20226
+E1011,Ivy,Lee,900011,Ivy Lee,Associate Professor,Department of Chemistry,Instructor,20229
+E1012,Jake,Martin,900012,Jake Martin,Senior Lecturer,Department of Accounting,Assistant,20232
+E1013,Kate,Clark,900013,Kate Clark,Professor,Department of Civil Engineering,Instructor,20236
+E1014,Luke,Young,900014,Luke Young,Assistant Professor,Department of Psychology,Assistant,20239
+E1015,Mia,King,900015,Mia King,Lecturer,Department of Biology,Instructor,20219
+E1016,Noah,Scott,900016,Noah Scott,Associate Professor,Department of Mathematics,Assistant,20222
+E1017,Olivia,Harris,900017,Olivia Harris,Senior Lecturer,Department of History,Instructor,20226
+E1018,Paul,Jones,900018,Paul Jones,Professor,Department of Chemistry,Assistant,20229
+E1019,Quinn,White,900019,Quinn White,Assistant Professor,Department of Accounting,Instructor,20232
+E1020,Rachel,Allen,900020,Rachel Allen,Lecturer,Department of Civil Engineering,Assistant,20236
