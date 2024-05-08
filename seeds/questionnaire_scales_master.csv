@@ -1,5 +1,5 @@
 scale_id,scale_name,mean_calculation
-1,Likert Scale,Mean
-2,Numeric Scale,Average
-3,Yes/No,Count
-14,Frequency,Mode
+1,Likert Scale,True
+2,Numeric Scale,True
+3,Yes/No,False
+14,Frequency,False

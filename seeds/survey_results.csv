@@ -2,7 +2,11 @@ unique_course_id,ccyys,secondarysubjectid,user_id,teaching_role,taskstatus,enrol
 101,20219,E1001,10001,Instructor,Submitted,Full-Time,Active,4,3,5,4,5,N,Y,N,Y,N,N,Y,4,5,3,4,4,3,2,5,3,3,4,5,5,5,5,3,4,4,3,3,5,5,3,4,3,3,4
 102,20222,E1002,10002,Assistant,Submitted,Part-Time,Active,3,4,2,3,3,Y,N,Y,N,Y,Y,N,3,4,5,4,2,4,3,3,4,4,3,4,5,4,5,5,3,5,4,5,4,3,3,5,4,5
 103,20226,E1003,10003,Instructor,Submitted,Full-Time,Active,5,5,4,5,5,N,Y,N,Y,N,N,Y,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-104,20229,E1004,10004,Assistant,Submitted,Full-Time,Active,4,3,5,4,4,Y,N,Y,N,Y,Y,N,4,3,4,3,4,3,4,4,3,3,4,3,4,3,4,3,4,3,4,4,3,4,3,4,4
-105,20232,E1005,10005,Instructor,In Progress,Part-Time,Active,3,4,2,3,3,Y,Y,N,N,N,Y,Y,3,4,5,4,2,4,3,3,4,4,3,4,5,4,5,5,3,5,4,5,4,3,3,5,4,3
-106,20236,E1006,10006,Assistant,Submitted,Full-Time,Suspended,5,5,4,5,5,N,N,Y,Y,Y,N,N,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
-107,20239,E1007,10007,Instructor,In Progress,Part-Time,Active,4,3,5,4,4,Y,Y,N,N,N,Y,Y,4,3,4,3,4,3,4,4,3,3,4,3,4,3,4,3,4,3,4,4,3,4,3,4,4
+104,20229,E1004,10004,Instructor,Submitted,Full-Time,Active,4,3,5,4,4,Y,N,Y,N,Y,Y,N,4,3,4,3,4,3,4,4,3,3,4,3,4,3,4,3,4,3,4,4,3,4,3,4,4
+105,20232,E1005,10005,Instructor,Submitted,Part-Time,Active,3,4,2,3,3,Y,Y,N,N,N,Y,Y,3,4,5,4,2,4,3,3,4,4,3,4,5,4,5,5,3,5,4,5,4,3,3,5,4,3
+106,20236,E1006,10006,Instructor,Submitted,Full-Time,Active,5,5,4,5,5,N,N,Y,Y,Y,N,N,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+107,20239,E1007,10007,Instructor,Submitted,Part-Time,Active,4,3,5,4,4,Y,Y,N,N,N,Y,Y,4,3,4,3,4,3,4,4,3,3,4,3,4,3,4,3,4,3,4,4,3,4,3,4,4
+108,20239,E1008,10008,Instructor,Submitted,Full-Time,Active,3,5,2,3,4,N,Y,N,N,Y,N,Y,5,4,3,2,4,5,3,4,5,3,4,5,3,5,5,2,4,3,4,4,5,3,5,5,3,5,2
+109,20236,E1009,10009,Instructor,Submitted,Part-Time,Active,4,3,4,5,3,Y,N,Y,Y,N,Y,N,4,3,2,4,3,5,4,2,3,3,4,5,4,2,5,5,5,3,5,5,4,4,3,4,3,3,5
+110,20222,E1010,10010,Instructor,Submitted,Full-Time,Active,4,5,3,2,4,Y,Y,N,N,Y,N,N,2,4,5,3,5,3,5,2,4,5,4,3,2,5,3,4,5,2,5,5,3,2,4,4,2,5,4
+111,20229,E1011,10011,Instructor,Submitted,Part-Time,Active,5,3,5,4,2,N,N,Y,Y,Y,Y,Y,4,3,4,5,3,2,4,5,3,2,5,3,4,3,4,5,3,2,5,3,4,5,3,2,5,3
