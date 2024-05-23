@@ -40,4 +40,6 @@ models:
       materialized: view
     BI:
       materialized: table
+    elementary:
+     +schema: "elementary"
 
