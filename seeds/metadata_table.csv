@@ -1,0 +1,8 @@
+table_name,column_name,is_key_column,change_tracking_enabled
+users,id,1,1
+users,username,0,1
+users,email, 0,1
+orders,order_id,1,1
+orders,user_id,0,1
+orders,product_id,0,0
+orders,order_date,0,1
