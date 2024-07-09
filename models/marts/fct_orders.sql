@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='view'
+    )
+}}
+
 with
 orders as (select * from {{ ref("stg_orders") }}),
 
@@ -12,7 +18,7 @@ select
     payments.payment_id,
     payments.payment_method,
     payments.amount,
-    payments.created_at,
+    
     payments.discount_percent
 
 
