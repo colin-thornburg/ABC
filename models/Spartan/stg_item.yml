@@ -1,0 +1,112 @@
+version: 2
+
+models:
+  - name: stg_item
+    description: "This model stages item data, including various attributes such as item code, shelf life, UPC codes, and more."
+    columns:
+      - name: header__change_seq
+        description: "Sequence number of the change."
+      - name: header__operation
+        description: "Operation type of the change."
+      - name: cdc_timestamp
+        description: "Timestamp of the change data capture."
+      - name: division_code
+        description: "Division code."
+        tests:
+          - not_null
+      - name: item_code
+        description: "Item code."
+        tests:
+          - not_null
+      - name: shelf_life
+        description: "Shelf life of the item."
+      - name: case_upc_code
+        description: "Case UPC code."
+      - name: unit_upc_code
+        description: "Unit UPC code."
+      - name: code_date_flag
+        description: "Flag indicating if the item has a code date."
+      - name: code_date_max
+        description: "Maximum code date."
+      - name: code_date_min
+        description: "Minimum code date."
+      - name: item_status
+        description: "Status of the item."
+      - name: create_date
+        description: "Date when the item was created."
+      - name: update_date
+        description: "Date when the item was last updated."
+      - name: item_description
+        description: "Description of the item."
+      - name: brand
+        description: "Brand of the item."
+      - name: vendor_code
+        description: "Vendor code."
+      - name: list_cost
+        description: "List cost of the item."
+      - name: suggested_retail_price
+        description: "Suggested retail price."
+      - name: master_pack
+        description: "Master pack quantity."
+      - name: first_ship_date
+        description: "First ship date."
+      - name: department
+        description: "Department of the item."
+      - name: item_group
+        description: "Item group."
+      - name: subgroup
+        description: "Subgroup."
+      - name: gpc_merchandise_class_code
+        description: "GPC merchandise class code."
+      - name: average_wholesale_price
+        description: "Average wholesale price."
+      - name: shipper_type
+        description: "Type of shipper."
+      - name: hide_on_insite_flag
+        description: "Flag indicating if the item should be hidden on Insite."
+      - name: master_case_length
+        description: "Length of the master case."
+      - name: master_case_width
+        description: "Width of the master case."
+      - name: master_case_height
+        description: "Height of the master case."
+      - name: master_case_weight
+        description: "Weight of the master case."
+      - name: shipping_case_length
+        description: "Length of the shipping case."
+      - name: shipping_case_width
+        description: "Width of the shipping case."
+      - name: shipping_case_height
+        description: "Height of the shipping case."
+      - name: shipping_case_weight
+        description: "Weight of the shipping case."
+      - name: item_size_descrip
+        description: "Description of the item size."
+      - name: short_description
+        description: "Short description of the item."
+      - name: replace_item_nbr
+        description: "Replacement item number."
+      - name: item_size
+        description: "Size of the item."
+      - name: item_size_uom
+        description: "Unit of measure for the item size."
+      - name: gtin_nbr
+        description: "GTIN number."
+      - name: root_item_nbr
+        description: "Root item number."
+      - name: cool_primary
+        description: "Primary COOL (Country of Origin Labeling) code."
+      - name: cool_country_code
+        description: "COOL country code."
+      - name: vendor_tier
+        description: "Vendor tier."
+      - name: store_pack_case
+        description: "Store pack case."
+      - name: master_case_cube
+        description: "Cube of the master case."
+      - name: shipping_case_cube
+        description: "Cube of the shipping case."
+      - name: item_key
+        description: "Generated surrogate key for the item."
+        tests:
+          - not_null
