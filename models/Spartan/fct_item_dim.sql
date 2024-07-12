@@ -27,7 +27,7 @@ WITH latest_data AS (
         sat.vendor_code,
         sat.list_cost,
         sat.suggested_retail_price AS ISI_CPR_SRP,
-        sat.master_pack,
+        -- sat.master_pack, test CI
         sat.first_ship_date AS ISI_FIRST_SHIP_DATE,
         sat.average_wholesale_price AS AVG_WHOLESALE_PRICE,
         sat.shipper_type AS SHIPPER_FLAG,
