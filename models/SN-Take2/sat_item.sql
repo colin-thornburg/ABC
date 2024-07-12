@@ -1,5 +1,9 @@
 {{ config(materialized='incremental', unique_key=['division_code', 'item_code', 'effective_from']) }}
 
+-- The primary purpose of a satellite table in a Data Vault model is to track historical changes to attributes over time. 
+-- By including effective_from in the unique key, we ensure that we can store multiple versions of the 
+-- same business entity (identified by division_code and item_code) with different effective dates.
+
 WITH int_item AS (
     SELECT * FROM {{ ref('int_item_transformed') }}
     WHERE header__operation != 'BEFOREIMAGE'
@@ -31,6 +35,8 @@ satellite_data AS (
         shipper_type,
         hide_on_insite_flag,
         cdc_timestamp AS effective_from,
+
+        -- some fanciness to identify the current record
         LEAD(cdc_timestamp) OVER (
             PARTITION BY division_code, item_code 
             ORDER BY cdc_timestamp
