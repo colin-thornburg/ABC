@@ -33,11 +33,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   abc_company:
-    +pre-hook: "{{ governance_check() }}"
-    marts:
-      materialized: table
-    staging:
-      materialized: view
-    BI:
-      materialized: table
+    Spartan:
+    materialized: view
 

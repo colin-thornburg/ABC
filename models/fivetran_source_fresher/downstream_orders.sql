@@ -1,1 +1,0 @@
-Select * from {{ source('source_fresher_demo', 'trigger_new_orders') }}
