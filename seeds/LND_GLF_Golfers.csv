@@ -1,0 +1,8 @@
+Golfer_ID,First_Name,Last_Name,Middle_Initial,Date_Of_Birth,Email_Address,LOAD_KEY_HASH,JOB_EXECUTION_ID,CREATE_TIMESTAMP,LOAD_TIMESTAMP
+101,Maxine,Carter,M,1990-04-22,maxine.carter@example.com,1a2b3c,201,2024-03-31T08:00:00Z,2024-03-31T08:30:00Z
+102,Alex,Johnson,A,1988-09-19,alex.johnson@example.com,4d5e6f,202,2024-03-31T08:10:00Z,2024-03-31T08:40:00Z
+103,Elena,Gilbert,E,1992-06-11,elena.gilbert@example.com,7g8h9i,203,2024-03-31T08:20:00Z,2024-03-31T08:50:00Z
+104,Lucas,Scott,L,1985-11-24,lucas.scott@example.com,a1b2c3,204,2024-03-31T08:30:00Z,2024-03-31T09:00:00Z
+105,Brooke,Davis,B,1991-03-04,brooke.davis@example.com,d4e5f6,205,2024-03-31T08:40:00Z,2024-03-31T09:10:00Z
+101,Maxine,Carter,M,1990-04-22,updated.maxine.carter@example.com,1a2b3c,201,2024-03-31T08:00:00Z,2024-04-01T10:00:00Z
+106,New,Player,N,1998-07-15,new.player@example.com,e7f8g9,206,2024-04-01T09:50:00Z,2024-04-01T10:30:00Z
