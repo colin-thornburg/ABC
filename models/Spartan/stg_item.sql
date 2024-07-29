@@ -13,7 +13,7 @@ renamed AS (
         TRIM(ISI_DC_CODE) AS division_code,
         TRIM(ISI_ITEM_CODE) AS item_code,
         TRIM(ARTRAC_ARTDLIM) AS shelf_life,
-        TRIM(ARTCOCA_UPC_ARCCODE) AS case_upc_code,
+        
         TRIM(ARTCOUL_UPC_ACUCODE) AS unit_upc_code,
         TRIM(ISI_CODE_DATE_FLG) AS code_date_flag,
         ISI_CODE_DATE_MAX AS code_date_max,
