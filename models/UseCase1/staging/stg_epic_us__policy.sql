@@ -23,4 +23,4 @@ renamed AS (
 )
 SELECT *
 FROM renamed
-WHERE office_agency_system_key = {{ var('FDW_oas_id_EPIC_US') }}
+WHERE office_agency_system_key = 'OAS001'  -- This can be a variable and dynamic if necessary
