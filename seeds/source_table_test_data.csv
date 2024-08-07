@@ -1,7 +1,0 @@
-SOURCE_TABLE_ID,SUBJECT_AREA,SOURCE_TABLE_NAME,COLUMN_NAME,COLUMN_ORDINAL_POSITION,COLUMN_IS_KEY,COLUMN_DISABLED_FLAG
-1,Finance,Transactions,TransactionID,1,1,0
-1,Finance,Transactions,Amount,2,0,0
-1,Finance,Transactions,Date,3,0,0
-2,HR,Employees,EmployeeID,1,1,0
-2,HR,Employees,Name,2,0,0
-2,HR,Employees,Age,3,0,0
