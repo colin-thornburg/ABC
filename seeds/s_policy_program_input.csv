@@ -1,0 +1,11 @@
+policy_id,program_eligibility_code,program_eligibility_name,program_desc_01,program_desc_02
+ASP001,1,Eligible,Commercial Property Program,General Liability Coverage
+ASP002,1,Eligible,Commercial Auto Program,Auto Liability Coverage
+ASP003,1,Eligible,Workers Compensation Program,Workers Comp Coverage
+ASP004,1,Eligible,Cyber Insurance Program,Data Breach Coverage
+ASP005,1,Eligible,Professional Liability Program,Errors and Omissions Coverage
+ASP006,1,Eligible,Client Advantage Program,Umbrella Advantage
+ASP007,1,Eligible,Commercial Property Program,Business Interruption Coverage
+ASP008,1,Eligible,Commercial Auto Program,Physical Damage Coverage
+ASP009,1,Eligible,Client Advantage Program,MLP Direct
+ASP010,1,Eligible,Cyber Insurance Program,Cyber Extortion Coverage

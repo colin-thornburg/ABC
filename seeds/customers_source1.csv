@@ -1,0 +1,3 @@
+customer_id,name,email,city,updated_at
+1,John Doe,john@example.com,New York,2023-01-01
+2,Jane Smith,jane@example.com,Los Angeles,2023-01-01

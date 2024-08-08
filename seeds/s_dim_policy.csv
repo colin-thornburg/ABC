@@ -1,0 +1,11 @@
+policy_key,agency_system_policy_id,policy_number,effective_date,expiration_date,inception_date,policy_status,bill_type,written_premium,annualized_premium,producer1_employee_key,csr1_employee_key,is_active,agency_system_original_policy_id,office_agency_system_key,extract_key,is_deleted,contracted_expiration_date,cancellation_reason,cancellation_reason_other
+1001,ASP001,POL-001,2023-01-01,2024-01-01,2023-01-01,Active,Direct Bill,10000,10000,EMP001,EMP002,true,ASP001,OAS001,1,false,2024-01-01,,
+1002,ASP002,POL-002,2023-02-15,2024-02-15,2023-02-15,Active,Agency Bill,15000,15000,EMP003,EMP004,true,ASP002,OAS001,1,false,2024-02-15,,
+1003,ASP003,POL-003,2023-03-01,2024-03-01,2023-03-01,Cancelled,Direct Bill,8000,12000,EMP005,EMP006,false,ASP003,OAS001,2,false,2024-03-01,Client Request,
+1004,ASP004,POL-004,2023-04-01,2024-04-01,2023-04-01,Active,Agency Bill,20000,20000,EMP007,EMP008,true,ASP004,OAS001,1,false,2024-04-01,,
+1005,ASP005,POL-005,2023-05-15,2024-05-15,2023-05-15,Active,Direct Bill,25000,25000,EMP009,EMP010,true,ASP005,OAS001,1,false,2024-05-15,,
+1006,ASP006,POL-006,2023-06-01,2024-06-01,2023-06-01,Pending,Agency Bill,18000,18000,EMP011,EMP012,true,ASP006,OAS001,1,false,2024-06-01,,
+1007,ASP007,POL-007,2023-07-15,2024-07-15,2023-07-15,Active,Direct Bill,30000,30000,EMP013,EMP014,true,ASP007,OAS001,1,false,2024-07-15,,
+1008,ASP008,POL-008,2023-08-01,2024-08-01,2023-08-01,Active,Agency Bill,22000,22000,EMP015,EMP016,true,ASP008,OAS001,1,false,2024-08-01,,
+1009,ASP009,POL-009,2023-09-15,2024-09-15,2023-09-15,Active,Direct Bill,17000,17000,EMP017,EMP018,true,ASP009,OAS001,1,false,2024-09-15,,
+1010,ASP010,POL-010,2023-10-01,2024-10-01,2023-10-01,Active,Agency Bill,28000,28000,EMP019,EMP020,true,ASP010,OAS001,1,false,2024-10-01,,

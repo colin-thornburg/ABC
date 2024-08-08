@@ -13,6 +13,8 @@ vars:
   # The `start_date` variable will be accessible in all resources
   start_date: '2016-06-01'
   FDW_oas_id_EPIC_US: 'OAS001'
+  my_source: 'stg_source1'
+  column_to_update: ['column1']
 
 
 # These configurations specify where dbt should look for different types of files.

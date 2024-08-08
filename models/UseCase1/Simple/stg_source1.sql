@@ -1,0 +1,1 @@
+Select id, column1, null as column2, updated_at from {{ ref('my_source_1') }}

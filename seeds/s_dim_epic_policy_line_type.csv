@@ -1,0 +1,11 @@
+epic_policy_line_type_key,policy_line_type_code,policy_line_type_description
+EPLT001,GENL,General Liability
+EPLT002,AUTO,Auto Liability
+EPLT003,WORK,Workers Compensation
+EPLT004,CYBR,Cyber Liability
+EPLT005,PROF,Professional Liability
+EPLT006,UMBR,Umbrella
+EPLT007,PROP,Property
+EPLT008,CUMB,Commercial Umbrella
+EPLT009,LXS,Excess Liability
+EPLT010,PRBM,Equipment Breakdown
