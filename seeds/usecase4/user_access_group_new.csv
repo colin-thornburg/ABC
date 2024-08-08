@@ -1,0 +1,5 @@
+user_id,bu_code,source_system,role_based_code,user_access_group_id
+user1,BU001,SYS1,BU,101
+user2,BU002,SYS2,SourceSystem,102
+user3,BU001,SYS1,BU,103
+user4,BU003,SYS3,BU,104
