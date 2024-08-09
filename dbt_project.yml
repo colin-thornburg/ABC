@@ -15,6 +15,7 @@ vars:
   FDW_oas_id_EPIC_US: 'OAS001'
   my_source: 'stg_source1'
   column_to_update: ['column1']
+  source_systems: ['EPIC_US', 'EPIC_CAN', 'OTHER_SYSTEM']
 
 
 # These configurations specify where dbt should look for different types of files.

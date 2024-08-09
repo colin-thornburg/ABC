@@ -1,0 +1,11 @@
+epic_policy_line_type_key,office_agency_system_key,policy_line_type_code,policy_line_type_desc
+10001,1,PL001,Auto
+10002,1,PL002,Home
+10003,1,PL003,Life
+10004,1,PL004,Health
+10005,1,PL005,Commercial Property
+10006,1,PL006,General Liability
+10007,1,PL007,Workers Compensation
+10008,1,PL008,Professional Liability
+10009,1,PL009,Cyber
+10010,1,PL010,Umbrella
