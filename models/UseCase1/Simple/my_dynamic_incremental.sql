@@ -1,3 +1,7 @@
+--{{ ref('stg_source1') }}
+--{{ ref('stg_source2') }}
+
+
 {{
     config(
         materialized='incremental',
