@@ -11,5 +11,6 @@ select
     case
         when py_eff_factor = 1 and py_exp_factor >= 1 and not py_min_multiyear_ind and py_max_multiyear_ind then true
         else multi_year_ind
-    end as prior_year_multi_year_exclusion_ind
+    end as prior_year_multi_year_exclusion_ind,
+    CURRENT_TIMESTAMP() as loaded_at 
 from multi_year_data
