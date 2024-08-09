@@ -1,25 +1,32 @@
 version: 2
 
 models:
-  - name: int_temp_policy_multi_year_1
+  - name: int_temp_policy_multi_year_2
     description: >
-      This model creates a temporary dataset that combines information from the 
-      `f_policy`, `d_policy`, and `d_bu` tables. It extracts policies with 
-      specific conditions, including renewal policies, business unit information, 
-      and effective/expiration dates. The resulting dataset is used for 
-      further analysis in calculating multi-year indicators.
+      This model processes the output from `int_temp_policy_multi_year_1` 
+      to calculate various factors related to multi-year policies. It determines 
+      current year (cy) and prior year (py) effective and expiration factors 
+      for each policy, using window functions to aggregate results by renewal 
+      policy identifiers. This dataset serves as a foundation for identifying 
+      exclusion indicators for current and prior years.
     columns:
       - name: policy_key
         description: Unique identifier for the policy.
-      - name: renewal_policy_id
-        description: Unique identifier for the renewal policy.
-      - name: source_system_instance_key
-        description: Identifier for the source system instance associated with the policy.
-      - name: division_code
-        description: Code representing the division of the business unit.
       - name: multi_year_ind
         description: Indicator showing if the policy is multi-year (TRUE/FALSE).
-      - name: effective_year
-        description: Year when the policy becomes effective.
-      - name: expiration_year
-        description: Year when the policy expires.
+      - name: cy_eff_factor
+        description: Current year effective factor (1 if effective, else 0).
+      - name: cy_exp_factor
+        description: Current year expiration factor (positive count of expirations).
+      - name: py_eff_factor
+        description: Prior year effective factor (1 if effective, else 0).
+      - name: py_exp_factor
+        description: Prior year expiration factor (positive count of expirations).
+      - name: cy_min_multiyear_ind
+        description: Minimum multi-year indicator for current year.
+      - name: cy_max_multiyear_ind
+        description: Maximum multi-year indicator for current year.
+      - name: py_min_multiyear_ind
+        description: Minimum multi-year indicator for prior year.
+      - name: py_max_multiyear_ind
+        description: Maximum multi-year indicator for prior year.
