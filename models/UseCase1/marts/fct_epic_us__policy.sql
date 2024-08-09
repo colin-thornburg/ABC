@@ -3,7 +3,14 @@
     unique_key=['env_source_code', 'data_source_code', 'policy_id'],
     on_schema_change='sync_all_columns'
 ) }}
-
+/* Only update a subset of columns
+merge_update_columns=[
+        'etl_active_ind',
+        'policy_source_sid',
+        'policy_num',
+        'effective_date',
+        'expiration_date', ...]
+*/
 WITH source_data AS (
     SELECT * FROM {{ ref('int_epic_us__policy_combined') }}
 )

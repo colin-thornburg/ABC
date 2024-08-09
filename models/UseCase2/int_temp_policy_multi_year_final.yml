@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: int_temp_policy_multi_year_final
+    description: >
+      This model finalizes the calculation of multi-year exclusion indicators 
+      based on the factors derived from `int_temp_policy_multi_year_2`. It 
+      determines whether to exclude a policy from the current or prior year 
+      based on specific criteria. The resulting dataset is used to update 
+      the dimension table `d_policy` with the calculated exclusion indicators.
+    columns:
+      - name: policy_key
+        description: Unique identifier for the policy.
+      - name: current_year_multi_year_exclusion_ind
+        description: Boolean indicator for excluding the policy from current year multi-year consideration.
+      - name: prior_year_multi_year_exclusion_ind
+        description: Boolean indicator for excluding the policy from prior year multi-year consideration.

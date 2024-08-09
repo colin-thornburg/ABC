@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: int_temp_policy_multi_year_1
+    description: >
+      This model creates a temporary dataset that combines information from the 
+      `f_policy`, `d_policy`, and `d_bu` tables. It extracts policies with 
+      specific conditions, including renewal policies, business unit information, 
+      and effective/expiration dates. The resulting dataset is used for 
+      further analysis in calculating multi-year indicators.
+    columns:
+      - name: policy_key
+        description: Unique identifier for the policy.
+      - name: renewal_policy_id
+        description: Unique identifier for the renewal policy.
+      - name: source_system_instance_key
+        description: Identifier for the source system instance associated with the policy.
+      - name: division_code
+        description: Code representing the division of the business unit.
+      - name: multi_year_ind
+        description: Indicator showing if the policy is multi-year (TRUE/FALSE).
+      - name: effective_year
+        description: Year when the policy becomes effective.
+      - name: expiration_year
+        description: Year when the policy expires.
