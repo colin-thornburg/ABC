@@ -12,6 +12,7 @@ profile: 'default'
 vars:
   # The `start_date` variable will be accessible in all resources
   start_date: '2016-06-01'
+  elig_dates: {}
 
 
 # These configurations specify where dbt should look for different types of files.
