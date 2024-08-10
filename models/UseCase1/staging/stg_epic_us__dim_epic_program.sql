@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='view'
+    )
+}}
+
 WITH source AS (
     SELECT * FROM {{ ref('s_dim_epic_program') }}
 ),

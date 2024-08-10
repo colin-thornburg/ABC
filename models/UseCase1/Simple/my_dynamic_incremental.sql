@@ -23,4 +23,4 @@ WHERE updated_at > (SELECT max(updated_at) FROM {{ this }})
 {% endif %}
 
 
-dbt run --vars '{"my_source": "stg_source2"}'
+--dbt run --vars '{"my_source": "stg_source2"}'
