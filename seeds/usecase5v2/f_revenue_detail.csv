@@ -1,0 +1,6 @@
+policy_key,bu_key,client_key,carrier_insurer_key,carrier_payee_key,product_key,product_line_key,invoice_date_key,bill_type_key,agent_commission_amt_usd,billed_premium_amt_usd,brokerage_expense_amt_usd,commission_revenue_amt_usd,fee_revenue_amt_usd,env_source_code
+1001,BU001,5001,7001,7001,8001,301,20230115,401,100.00,1000.00,50.00,150.00,25.00,EPIC_US
+1002,BU002,5002,7002,7002,8002,302,20230215,402,150.00,1500.00,75.00,200.00,30.00,EPIC_US
+1003,BU003,5003,7003,7003,8003,303,20230315,403,200.00,2000.00,100.00,250.00,35.00,EPIC_US
+1004,BU004,5004,7004,7004,8004,304,20230415,404,250.00,2500.00,125.00,300.00,40.00,EPIC_US
+1005,BU005,5005,7005,7005,8005,305,20230515,405,300.00,3000.00,150.00,350.00,45.00,EPIC_US

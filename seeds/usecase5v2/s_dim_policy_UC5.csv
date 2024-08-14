@@ -1,0 +1,6 @@
+policy_key,extract_key,client_key,department_key,effective_date,expiration_date,inception_date,product_line_key,bill_type_key,office_agency_system_key
+1001,101,5001,201,2023-01-01,2024-01-01,2023-01-01,301,401,EPIC_US
+1002,102,5002,202,2023-02-01,2024-02-01,2023-02-01,302,402,EPIC_US
+1003,103,5003,203,2023-03-01,2024-03-01,2023-03-01,303,403,EPIC_US
+1004,104,5004,204,2023-04-01,2024-04-01,2023-04-01,304,404,EPIC_US
+1005,105,5005,205,2023-05-01,2024-05-01,2023-05-01,305,405,EPIC_US
