@@ -1,6 +1,6 @@
-extract_key,extract_name,extract_date
-101,Extract_A,2023-01-15
-102,Extract_B,2023-02-15
-103,Extract_C,2023-03-15
-104,Extract_D,2023-04-15
-105,Extract_E,2023-05-15
+extract_key,extract_name,extract_date,agency_system_name,bill_type_key,source_system_instance_code
+101,Extract_A,2023-01-15,System_A,201,System_A - 501
+102,Extract_B,2023-02-15,System_B,202,System_B - 502
+103,Extract_C,2023-03-15,System_C,203,System_C - 503
+104,Extract_D,2023-04-15,System_D,204,System_D - 504
+105,Extract_E,2023-05-15,System_E,205,System_E - 505
