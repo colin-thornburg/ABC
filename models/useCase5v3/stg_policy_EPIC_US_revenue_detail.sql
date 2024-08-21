@@ -1,0 +1,50 @@
+-- models/staging/stg_policy_EPIC_US_revenue_detail.sql
+
+{{ config(materialized='ephemeral') }}
+
+-- Placeholder for sp_load_temp_edw_f_policy_xxx_revenue_detail
+SELECT
+    policy_key,
+    -- Add other fields that would be returned by the stored procedure
+    NULL AS client_key,
+    NULL AS carrier_insurer_key,
+    NULL AS carrier_payee_key,
+    NULL AS product_key,
+    NULL AS product_line_key,
+    NULL AS producer_01_key,
+    NULL AS invoice_date_key,
+    NULL AS client_producer_key,
+    NULL AS client_account_manager_key,
+    NULL AS bu_key,
+    NULL AS bu_department_key,
+    NULL AS bu_state_key,
+    NULL AS bill_type_key,
+    0 AS agent_commission_amt_lcl,
+    0 AS agent_commission_amt_usd,
+    0 AS agent_commission_amt_pegusd,
+    0 AS agent_commission_amt_trns,
+    0 AS billed_premium_amt_lcl,
+    0 AS billed_premium_amt_usd,
+    0 AS billed_premium_amt_pegusd,
+    0 AS billed_premium_amt_trns,
+    0 AS brokerage_expense_amt_lcl,
+    0 AS brokerage_expense_amt_usd,
+    0 AS brokerage_expense_amt_pegusd,
+    0 AS brokerage_expense_amt_trns,
+    0 AS commission_revenue_amt_lcl,
+    0 AS commission_revenue_amt_usd,
+    0 AS commission_revenue_amt_pegusd,
+    0 AS commission_revenue_amt_trns,
+    0 AS fee_revenue_amt_lcl,
+    0 AS fee_revenue_amt_usd,
+    0 AS fee_revenue_amt_pegusd,
+    0 AS fee_revenue_amt_trns,
+    0 AS commission_premium_amt_lcl,
+    0 AS commission_premium_amt_usd,
+    0 AS commission_premium_amt_pegusd,
+    0 AS commission_premium_amt_trns,
+    0 AS fee_premium_amt_lcl,
+    0 AS fee_premium_amt_usd,
+    0 AS fee_premium_amt_pegusd,
+    0 AS fee_premium_amt_trns
+FROM {{ ref('stg_policy_EPIC_US_main') }}
