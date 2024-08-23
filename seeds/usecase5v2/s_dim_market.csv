@@ -1,0 +1,11 @@
+market_key,market_id,market_name,market_type,parent_market_id,is_active,country_code,currency_code,market_code,effective_date,expiration_date,source_system,source_system_key
+1001,MKT001,Acme Insurance,Carrier,NULL,1,US,USD,ACME,2023-01-01,9999-12-31,EPIC,E001
+1002,MKT002,Global Reinsurance Co,Reinsurer,NULL,1,UK,GBP,GLORE,2023-01-01,9999-12-31,EPIC,E002
+1003,MKT003,Midwest Mutual,Carrier,NULL,1,US,USD,MIDMU,2023-01-01,9999-12-31,EPIC,E003
+1004,MKT004,Euro Assurance,Carrier,NULL,1,FR,EUR,EUROA,2023-01-01,9999-12-31,EPIC,E004
+1005,MKT005,Pacific Underwriters,Underwriter,NULL,1,AU,AUD,PACUN,2023-01-01,9999-12-31,EPIC,E005
+1006,MKT006,American Specialty Risks,Specialty,NULL,1,US,USD,AMSP,2023-01-01,9999-12-31,EPIC,E006
+1007,MKT007,Acme Life Insurance,Carrier,MKT001,1,US,USD,ACMEL,2023-01-01,9999-12-31,EPIC,E007
+1008,MKT008,Global Property Reinsurance,Reinsurer,MKT002,1,UK,GBP,GLOPRO,2023-01-01,9999-12-31,EPIC,E008
+1009,MKT009,Midwest Auto Insurance,Carrier,MKT003,1,US,USD,MIDAU,2023-01-01,9999-12-31,EPIC,E009
+1010,MKT010,Euro Life Assurance,Carrier,MKT004,1,FR,EUR,EUROL,2023-01-01,9999-12-31,EPIC,E010

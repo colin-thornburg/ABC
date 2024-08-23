@@ -1,0 +1,11 @@
+product_line_key,product_line_id,product_line_code,product_line_name,product_line_desc,is_active,effective_date,expiration_date,source_system,source_system_key,office_agency_system_key,extract_key
+1001,PL001,AUTO,Automobile,Personal and commercial auto insurance,1,2023-01-01,9999-12-31,EPIC,E001,1234,EXT001
+1002,PL002,HOME,Homeowners,Residential property insurance,1,2023-01-01,9999-12-31,EPIC,E002,1234,EXT001
+1003,PL003,LIFE,Life Insurance,Term and permanent life insurance,1,2023-01-01,9999-12-31,EPIC,E003,1234,EXT001
+1004,PL004,HEALTH,Health Insurance,Individual and group health plans,1,2023-01-01,9999-12-31,EPIC,E004,1234,EXT002
+1005,PL005,COMM,Commercial Property,Business property and liability coverage,1,2023-01-01,9999-12-31,EPIC,E005,1234,EXT002
+1006,PL006,WC,Workers Compensation,Employer liability and employee injury coverage,1,2023-01-01,9999-12-31,EPIC,E006,1234,EXT002
+1007,PL007,UMBR,Umbrella Insurance,Additional liability coverage,1,2023-01-01,9999-12-31,EPIC,E007,1234,EXT003
+1008,PL008,CYBER,Cyber Insurance,Data breach and cyber liability coverage,1,2023-01-01,9999-12-31,EPIC,E008,1234,EXT003
+1009,PL009,E&O,Errors and Omissions,Professional liability insurance,1,2023-01-01,9999-12-31,EPIC,E009,1234,EXT003
+1010,PL010,D&O,Directors and Officers,Management liability insurance,1,2023-01-01,9999-12-31,EPIC,E010,1234,EXT004

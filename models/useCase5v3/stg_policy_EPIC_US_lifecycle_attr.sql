@@ -1,0 +1,78 @@
+-- models/staging/stg_policy_EPIC_US_lifecycle_attr.sql
+
+{{ config(materialized='view') }}
+
+WITH source_data AS (
+    SELECT
+        policy_key,
+        prior_market_key,
+        future_market_key,
+        active_policy_status_key,
+        ajg_new_client_status_key,
+        ajg_lost_business_detail_key,
+        ajg_lost_client_status_key,
+        ajg_new_business_detail_key,
+        fee_converted_lost_detail_key,
+        fee_converted_new_detail_key,
+        fee_split_lost_detail_key,
+        fee_split_new_detail_key,
+        future_market_type_key,
+        market_status_key,
+        prior_market_type_key,
+        package_converted_lost_detail_key,
+        package_converted_new_detail_key,
+        policy_occurrence_key,
+        active_policy_status_code,
+        ajg_new_client_status_code,
+        ajg_lost_business_detail_code,
+        ajg_lost_client_status_code,
+        ajg_new_business_detail_code,
+        fee_converted_lost_detail_code,
+        fee_converted_new_detail_code,
+        fee_split_lost_detail_code,
+        fee_split_new_detail_code,
+        future_market_type_code,
+        market_status_code,
+        prior_market_type_code,
+        package_converted_lost_detail_code,
+        package_converted_new_detail_code,
+        policy_occurrence_code
+    FROM {{ ref('lifecycle_placeholder') }}  -- Replace with actual source
+    WHERE env_source_code = 'EPIC_US'  -- Adjust as needed
+)
+
+SELECT
+    policy_key,
+    prior_market_key,
+    future_market_key,
+    active_policy_status_key,
+    ajg_new_client_status_key,
+    ajg_lost_business_detail_key,
+    ajg_lost_client_status_key,
+    ajg_new_business_detail_key,
+    fee_converted_lost_detail_key,
+    fee_converted_new_detail_key,
+    fee_split_lost_detail_key,
+    fee_split_new_detail_key,
+    future_market_type_key,
+    market_status_key,
+    prior_market_type_key,
+    package_converted_lost_detail_key,
+    package_converted_new_detail_key,
+    policy_occurrence_key,
+    active_policy_status_code,
+    ajg_new_client_status_code,
+    ajg_lost_business_detail_code,
+    ajg_lost_client_status_code,
+    ajg_new_business_detail_code,
+    fee_converted_lost_detail_code,
+    fee_converted_new_detail_code,
+    fee_split_lost_detail_code,
+    fee_split_new_detail_code,
+    future_market_type_code,
+    market_status_code,
+    prior_market_type_code,
+    package_converted_lost_detail_code,
+    package_converted_new_detail_code,
+    policy_occurrence_code
+FROM source_data
