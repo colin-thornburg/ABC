@@ -1,0 +1,11 @@
+market_key,market_name,market_code
+1,"Carrier Market A","CMA"
+2,"Carrier Market B","CMB"
+3,"Carrier Market C","CMC"
+4,"{ NO INSURER MARKET }","NIM"
+5,"Carrier Market D","CMD"
+6,"Carrier Market E","CME"
+7,"Carrier Market F","CMF"
+8,"{ NOT A CARRIER }","NAC"
+9,"Unmapped Carrier","UNC"
+10,"Carrier Market G","CMG"
