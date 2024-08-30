@@ -166,9 +166,60 @@ policy_main AS (
 )
 
 SELECT
-  CASE WHEN a.policy_id IS NULL THEN '-1' ELSE TO_VARCHAR(IFNULL(p.policy_key, -2)) END AS policy_key,
-  CASE WHEN a.client_id IS NULL THEN '-1' ELSE TO_VARCHAR(IFNULL(c.client_key, -2)) END AS client_key,
-  CASE WHEN a.carrier_insurer_id IS NULL THEN '-1' ELSE TO_VARCHAR(IFNULL(car1.carrier_key, -2)) END AS carrier_insurer_key,
+  CASE 
+    WHEN a.policy_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(p.policy_key), '-2')) 
+  END AS policy_key,
+
+  CASE 
+    WHEN a.client_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(c.client_key), 'invalid_key')) 
+  END AS client_key,
+
+  CASE 
+    WHEN a.carrier_insurer_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(car1.carrier_key), 'invalid_key')) 
+  END AS carrier_insurer_key,
+  CASE 
+    WHEN a.carrier_payee_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(car1.carrier_key), 'invalid_key')) 
+  END AS carrier_payee_key,
+
+  CASE 
+    WHEN a.account_manager_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(pam.producer_key), 'invalid_key')) 
+  END AS account_manager_key,
+
+  CASE 
+    WHEN a.producer_01_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(pp1.producer_key), 'invalid_key')) 
+  END AS producer_01_key,
+
+  CASE 
+    WHEN a.producer_02_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(pp2.producer_key), 'invalid_key')) 
+  END AS producer_02_key,
+
+  CASE 
+    WHEN a.client_account_manager_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(cam.producer_key), 'invalid_key')) 
+  END AS client_account_manager_key,
+
+  CASE 
+    WHEN a.client_producer_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(cp1.producer_key), 'invalid_key')) 
+  END AS client_producer_key,
+
+  CASE 
+    WHEN a.product_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(prd1.product_key), 'invalid_key')) 
+  END AS product_key,
+
+  CASE 
+    WHEN a.product_line_id IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(prd2.product_key), 'invalid_key')) 
+  END AS product_line_key,
+
   CASE WHEN a.effective_date IS NULL THEN '-1'
     ELSE TO_VARCHAR(IFNULL(
       d1.date_key,
@@ -209,12 +260,46 @@ SELECT
       END
     ))
   END AS contracted_expiration_date_key,
-  CASE WHEN a.bu_id IS NULL THEN '9005' ELSE TO_VARCHAR(IFNULL(bu1.bu_key, -2)) END AS bu_key,
-  CASE WHEN a.bu_id IS NULL AND a.department_code IS NULL THEN '9005' ELSE TO_VARCHAR(COALESCE(bu2.bu_key, bu3.bu_key, -2)) END AS bu_department_key,
-  CASE WHEN a.department_code IS NULL OR a.bu_id IS NULL OR bu1.state_code IS NULL OR bu1.country_name IS NULL THEN '-1' ELSE TO_VARCHAR(IFNULL(cs.country_state_key, -2)) END AS bu_state_key,
+
+CASE 
+    WHEN a.env_source_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(ss.source_system_key), 'invalid_key')) 
+  END AS source_system_key,
+CASE 
+    WHEN a.env_source_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(ssi.source_system_instance_key), 'invalid_key')) 
+  END AS source_system_instance_key,
+
+  CASE WHEN a.bu_id IS NULL THEN '9005' ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(bu1.bu_key), '-2')) END AS bu_key,
+
+  CASE 
+  WHEN a.bu_id IS NULL AND a.department_code IS NULL THEN '9005' 
+  ELSE COALESCE(TO_VARCHAR(bu2.bu_key), TO_VARCHAR(bu3.bu_key), '-2') 
+END AS bu_department_key,
+
+CASE 
+  WHEN a.department_code IS NULL OR a.bu_id IS NULL OR bu1.state_code IS NULL OR bu1.country_name IS NULL THEN '-1' 
+  ELSE IFNULL(TO_VARCHAR(cs.country_state_key), '-2') 
+END AS bu_state_key,
+
+
+  CASE 
+    WHEN p.bill_type_code IS NULL THEN 'unknown_key' 
+    ELSE TO_VARCHAR(IFNULL(TO_VARCHAR(bt.bill_type_key), 'invalid_key')) 
+  END AS bill_type_key,
+    a.env_source_code,
+	a.data_source_code,
   a.policy_id,
   a.client_id,
   a.carrier_insurer_id,
+  a.carrier_payee_id,
+  a.account_manager_code,
+    a.producer_01_code,
+    a.producer_02_code,
+    a.client_account_manager_code,
+    a.client_producer_code,
+    a.product_id,
+    a.product_line_id,
   a.bill_type_code,
   a.department_code,
   a.bu_id,

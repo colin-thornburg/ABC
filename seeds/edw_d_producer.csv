@@ -1,11 +1,16 @@
-producer_id,env_source_code,data_source_code,producer_key
-PRD001,EPIC_US,Producer,4001
-PRD002,EPIC_US,Producer,4002
-PRD003,EPIC_US,Producer,4003
-PRD004,EPIC_US,Producer,4004
-PRD005,EPIC_US,Producer,4005
-PRD006,EPIC_US,Producer,4006
-PRD007,EPIC_US,Producer,4007
-PRD008,EPIC_US,Producer,4008
-PRD009,EPIC_US,Producer,4009
-PRD010,EPIC_US,Producer,4010
+producer_key,producer_id,producer_name,producer_status
+1,EMP001,John Doe,Active
+2,EMP002,Jane Smith,Active
+3,EMP003,Bob Johnson,Active
+4,EMP004,Alice Brown,Active
+5,EMP005,Charlie Davis,Active
+6,EMP006,Diana Evans,Active
+7,EMP007,Ethan Foster,Active
+8,EMP008,Fiona Gray,Active
+9,EMP009,George Harris,Active
+10,EMP010,Hannah Irwin,Active
+11,EMP011,Ian Jenkins,Active
+12,EMP012,Julia King,Active
+13,EMP013,Kevin Lee,Active
+14,EMP014,Laura Moore,Active
+15,EMP015,Mike Nelson,Active

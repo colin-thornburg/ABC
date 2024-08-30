@@ -1,21 +1,7 @@
-carrier_id,env_source_code,data_source_code,carrier_key,carrier_master_parent_name,carrier_name
-CAR001,FDW,Carrier,3001,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR002,FDW,Carrier,3002,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR003,FDW,Carrier,3003,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR004,FDW,Carrier,3004,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR005,FDW,Carrier,3005,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR006,FDW,Carrier,3006,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR007,FDW,Carrier,3007,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR008,FDW,Carrier,3008,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR009,FDW,Carrier,3009,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR010,FDW,Carrier,3010,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR011,FDW,Carrier,7001,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR012,FDW,Carrier,7002,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR013,FDW,Carrier,7003,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR014,FDW,Carrier,7004,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR015,FDW,Carrier,7005,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR016,FDW,Carrier,7006,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR017,FDW,Carrier,7007,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR018,FDW,Carrier,7008,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR019,FDW,Carrier,7009,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
-CAR020,FDW,Carrier,7010,Gallagher Global Brokerage-US,Certain Underwriters at Lloyd''s (B1262BW0127720)
+carrier_key,carrier_id,carrier_name,carrier_status,CARRIER_MASTER_PARENT_NAME
+1,CAR001,Insurer Alpha,Active,IA
+2,CAR002,Insurer Beta,Active,IB
+3,CAR003,Insurer Gamma,Active,IG
+4,CAR004,Insurer Delta,Active,ID
+5,CAR005,Insurer Epsilon,Active,IE
+6,CAR006,Insurer Zeta,Active,IZ
