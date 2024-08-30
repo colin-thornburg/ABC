@@ -1,7 +1,6 @@
-carrier_key,carrier_id,carrier_name,carrier_status,CARRIER_MASTER_PARENT_NAME
-1,CAR001,Insurer Alpha,Active,IA
-2,CAR002,Insurer Beta,Active,IB
-3,CAR003,Insurer Gamma,Active,IG
-4,CAR004,Insurer Delta,Active,ID
-5,CAR005,Insurer Epsilon,Active,IE
-6,CAR006,Insurer Zeta,Active,IZ
+carrier_key,carrier_id,carrier_name,carrier_status,carrier_master_parent_name
+1,CAR001,Insurer Alpha,Active,Other Parent
+2,CAR002,Insurer Beta,Active,Gallagher Global Brokerage-US
+3,CAR003,Insurer Gamma,Active,Other Parent
+4,CAR004,Insurer Delta,Active,Other Parent
+5,CAR005,Certain Underwriters at Lloyd's (B1262BW0127720),Active,Other Parent

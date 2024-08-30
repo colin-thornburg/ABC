@@ -1,9 +1,6 @@
 client_key,client_id,client_name,client_status
 1001,CLI001,Acme Corp,Active
-1002,CLI002,Beta Inc,Active
+1002,MNZ002,Beta Inc,Active
 1003,CLI003,Gamma LLC,Active
 1004,CLI004,Delta Co,Active
 1005,CLI005,Epsilon Ltd,Active
-1006,CLI006,Zeta Corp,Active
-1007,CLI007,Eta Inc,Active
-1008,CLI008,Theta LLC,Active
