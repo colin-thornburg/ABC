@@ -1,11 +1,21 @@
-bu_id,env_source_code,data_source_code,bu_key,department_code,state_code,country_name
-1,JDE,BU,9001,DEPT001,CA,USA
-2,JDE,BU,9002,DEPT002,TX,USA
-3,JDE,BU,9003,DEPT003,NY,USA
-4,JDE,BU,9004,DEPT004,FL,USA
-5,JDE,BU,9005,DEPT005,WA,USA
-6,JDE,BU,9006,DEPT006,IL,USA
-7,JDE,BU,9007,DEPT007,OR,USA
-8,JDE,BU,9008,DEPT008,GA,USA
-9,JDE,BU,9009,DEPT009,MI,USA
-10,JDE,BU,9010,DEPT010,PA,USA
+bu_id,env_source_code,data_source_code,bu_key,department_code,state_code,country_name,region_name,carrier_name
+1,JDE,BU,9001,DEPT001,CA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+2,JDE,BU,9002,DEPT002,TX,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+3,JDE,BU,9003,DEPT003,NY,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+4,JDE,BU,9004,DEPT004,FL,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+5,JDE,BU,9005,DEPT005,WA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+6,JDE,BU,9006,DEPT006,IL,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+7,JDE,BU,9007,DEPT007,OR,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+8,JDE,BU,9008,DEPT008,GA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+9,JDE,BU,9009,DEPT009,MI,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+10,JDE,BU,9010,DEPT010,PA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+11,JDE,BU,2001,DEPT001,CA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+12,JDE,BU,2002,DEPT002,TX,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+13,JDE,BU,2003,DEPT003,NY,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+14,JDE,BU,2004,DEPT004,FL,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+15,JDE,BU,2005,DEPT005,WA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+16,JDE,BU,2006,DEPT006,IL,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+17,JDE,BU,2007,DEPT007,OR,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+18,JDE,BU,2008,DEPT008,GA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+19,JDE,BU,2009,DEPT009,MI,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
+20,JDE,BU,2010,DEPT010,PA,USA,GGB ANZ - Broking NZ,Certain Underwriters at Lloyd''s (B1262BW0127720)
