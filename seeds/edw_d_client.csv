@@ -1,6 +1,6 @@
-client_key,client_id,client_name,client_status
-1001,CLI001,Acme Corp,Active
-1002,MNZ002,Beta Inc,Active
-1003,CLI003,Gamma LLC,Active
-1004,CLI004,Delta Co,Active
-1005,CLI005,Epsilon Ltd,Active
+client_key,client_id,client_name,client_status,organization_key,exposed_ind,client_master_name
+1001,CLI001,Acme Corp,Active,1,false,
+1002,CLI002,Beta Inc,Active,2,true,Beta Corporation
+1003,CLI003,Gamma LLC,Active,3,false,
+1004,CLI004,Delta Co,Active,4,true,
+1005,CLI005,Epsilon Ltd,Active,5,false,Epsilon Global

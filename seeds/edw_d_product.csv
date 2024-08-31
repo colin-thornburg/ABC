@@ -1,6 +1,6 @@
-product_key,product_id,product_name,product_status
-1,PROD001,Property Insurance,Active
-2,PROD002,Liability Insurance,Active
-3,PROD003,Auto Insurance,Active
-4,PROD004,Worker's Compensation,Active
-5,PROD005,Cyber Insurance,Active
+product_key,product_id,product_name,product_status,product_master_key
+1,PROD001,Property Insurance,Active,1
+2,PROD002,Liability Insurance,Active,2
+3,PROD003,Auto Insurance,Active,3
+4,PROD004,Worker's Compensation,Active,4
+5,PROD005,Cyber Insurance,Active,5

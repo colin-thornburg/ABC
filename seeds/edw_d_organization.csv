@@ -1,0 +1,11 @@
+organization_key,global_ultimate_business_name,domestic_ultimate_business_name,organization_status
+1,Global Corp Inc.,US Corp Inc.,Active
+2,Worldwide Enterprises,American Enterprises,Active
+3,International Holdings,National Holdings,Active
+4,Global Tech Solutions,US Tech Solutions,Active
+5,World Finance Group,American Finance Group,Active
+6,,Local Business LLC,Active
+7,Global Manufacturing,,Active
+8,,,Active
+9,Unknown,Unknown,Inactive
+10,No Match,No Match,Inactive

@@ -1,0 +1,10 @@
+product_master_key,product_master_line_name,product_master_status
+1,Property Insurance,Active
+2,Liability Insurance,Active
+3,Auto Insurance,Active
+4,Workers Compensation,Active
+5,Cyber Insurance,Active
+6,Professional Liability,Active
+7,Unknown,Inactive
+8,No Match,Inactive
+9,Invalid,Inactive
