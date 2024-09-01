@@ -25,7 +25,7 @@ WITH policy AS (
 INNER JOIN (
   SELECT policy_key
   FROM {{ ref('edw_f_revenue_detail') }}
-  WHERE env_source_code = 'FDW'  -- Assuming 'FDW' is the value you want to filter on
+  WHERE env_source_code = 'FDW'  
   GROUP BY policy_key
   HAVING
     SUM(billed_premium_amt_lcl) <> 0
@@ -90,7 +90,8 @@ SELECT
 		ON pr.product_key =
 			(
 				CASE
-					WHEN pb.product_key > :env_variables['unknown_key'] THEN pb.product_key
+					--WHEN pb.product_key > :env_variables['unknown_key'] THEN pb.product_key
+                    WHEN pb.product_key > 0 THEN pb.product_key
 					ELSE pb.product_line_key
 				END
 			)
