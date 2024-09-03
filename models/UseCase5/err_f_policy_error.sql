@@ -1,0 +1,1 @@
+Select * from {{ ref('edw_f_policy_EPIC_US_insertion_status') }} where insert_to_error 
