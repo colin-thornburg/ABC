@@ -1,0 +1,11 @@
+bill_type_code,env_source_code,data_source_code,bill_type_key
+BT01,FDW,BillType,11001
+BT02,FDW,BillType,11002
+BT03,FDW,BillType,11003
+BT04,FDW,BillType,11004
+BT05,FDW,BillType,11005
+BT06,FDW,BillType,11006
+BT07,FDW,BillType,11007
+BT08,FDW,BillType,11008
+BT09,FDW,BillType,11009
+BT10,FDW,BillType,11010

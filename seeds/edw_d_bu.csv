@@ -1,0 +1,6 @@
+bu_key,bu_id,env_source_code,data_source_code,department_code,state_code,country_name,region_name,division_code
+9001,1,JDE,BU,DEPT001,CA,USA,Other Region,WEST
+9002,2,JDE,BU,DEPT002,TX,USA,Other Region,SOUTH
+9003,3,JDE,BU,DEPT003,NY,USA,GGB ANZ - Broking NZ,EAST
+9004,4,JDE,BU,DEPT004,FL,USA,Other Region,SOUTH
+9005,5,JDE,BU,DEPT005,WA,USA,Other Region,WEST

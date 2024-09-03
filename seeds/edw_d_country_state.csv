@@ -1,0 +1,11 @@
+country_state_code,country_name,country_state_type_code,env_source_code,data_source_code,country_state_key
+CA,USA,State Province,MDM,BUState,10001
+TX,USA,State Province,MDM,BUState,10002
+NY,USA,State Province,MDM,BUState,10003
+FL,USA,State Province,MDM,BUState,10004
+WA,USA,State Province,MDM,BUState,10005
+IL,USA,State Province,MDM,BUState,10006
+OR,USA,State Province,MDM,BUState,10007
+GA,USA,State Province,MDM,BUState,10008
+MI,USA,State Province,MDM,BUState,10009
+PA,USA,State Province,MDM,BUState,10010

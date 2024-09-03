@@ -1,0 +1,16 @@
+PRODUCT_KEY,PRODUCT_ID,PRODUCT_NAME,PRODUCT_STATUS,PRODUCT_MASTER_KEY
+1,PROD001,Property Insurance,Active,1
+2,PROD002,Liability Insurance,Active,2
+3,PROD003,Auto Insurance,Active,3
+4,PROD004,Worker's Compensation,Active,4
+5,PROD005,Cyber Insurance,Active,5
+8001,PROD8001,Product 8001,Active,1
+8002,PROD8002,Product 8002,Active,2
+8003,PROD8003,Product 8003,Active,3
+8004,PROD8004,Product 8004,Active,4
+8005,PROD8005,Product 8005,Active,5
+9001,PROD9001,Product Line 9001,Active,1
+9002,PROD9002,Product Line 9002,Active,2
+9003,PROD9003,Product Line 9003,Active,3
+9004,PROD9004,Product Line 9004,Active,4
+9005,PROD9005,Product Line 9005,Active,5

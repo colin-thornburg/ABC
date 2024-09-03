@@ -1,0 +1,11 @@
+source_system_instance_key,source_system_instance_code,source_system_instance_name,source_system_instance_status,source_system_instance_id
+1,EPIC_US,EPIC US Instance,Active,1
+2,EPIC_CAN,EPIC Canada Instance,Active,2
+3,AIM_CF,AIM CF Instance,Active,3
+4,RPS,RPS Instance,Active,4
+5,UK,UK Instance,Active,5
+6,FDW - 1,FDW US Instance,Active,6
+7,FDW - 2,FDW Canada Instance,Active,7
+8,FDW - 3,FDW AIM CF Instance,Active,8
+9,AIM - 1,AIM Instance,Active,9
+10,IB_EDW - 1,IB EDW Instance,Active,10

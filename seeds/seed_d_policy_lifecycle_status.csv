@@ -1,0 +1,42 @@
+policy_lifecycle_status_key,policy_lifecycle_status_code,policy_lifecycle_status_type_code,env_source_code,data_source_code
+1,Active Policy,Active Policy Status,MDM,Policy Lifecycle Status
+2,Expired Policy,Active Policy Status,MDM,Policy Lifecycle Status
+3,Future Policy,Active Policy Status,MDM,Policy Lifecycle Status
+4,New,AJG New Client Status,MDM,Policy Lifecycle Status
+5,Renewal,AJG New Client Status,MDM,Policy Lifecycle Status
+6,Lost Client,AJG Lost Business Detail,MDM,Policy Lifecycle Status
+7,Lost Product,AJG Lost Business Detail,MDM,Policy Lifecycle Status
+8,Lost,AJG Lost Client Status,MDM,Policy Lifecycle Status
+9,Renewal,AJG Lost Client Status,MDM,Policy Lifecycle Status
+10,New Client,AJG New Business Detail,MDM,Policy Lifecycle Status
+11,New Product,AJG New Business Detail,MDM,Policy Lifecycle Status
+12,New Policy,AJG New Business Detail,MDM,Policy Lifecycle Status
+13,Fee Convert from Others,Fee Converted New Detail,MDM,Policy Lifecycle Status
+14,New Convert from Fee,Fee Converted New Detail,MDM,Policy Lifecycle Status
+15,Lost Convert to Fee,Fee Converted Lost Detail,MDM,Policy Lifecycle Status
+16,Fee Convert to Others,Fee Converted Lost Detail,MDM,Policy Lifecycle Status
+17,Fee Split from Others,Fee Split New Detail,MDM,Policy Lifecycle Status
+18,Fee Combine to Others,Fee Split Lost Detail,MDM,Policy Lifecycle Status
+19,Gallagher Intermediary,Future Market Type,MDM,Policy Lifecycle Status
+20,Tier 1 Carrier,Future Market Type,MDM,Policy Lifecycle Status
+21,Carrier - non Tier 1,Future Market Type,MDM,Policy Lifecycle Status
+22,External Intermediary / Other,Future Market Type,MDM,Policy Lifecycle Status
+23,New Policy,Market Status,MDM,Policy Lifecycle Status
+24,Renewal from same Market,Market Status,MDM,Policy Lifecycle Status
+25,New from another Market,Market Status,MDM,Policy Lifecycle Status
+26,Gallagher Intermediary,Prior Market Type,MDM,Policy Lifecycle Status
+27,Tier 1 Carrier,Prior Market Type,MDM,Policy Lifecycle Status
+28,Carrier - non Tier 1,Prior Market Type,MDM,Policy Lifecycle Status
+29,External Intermediary / Other,Prior Market Type,MDM,Policy Lifecycle Status
+30,Package Convert from Others,Package Converted New Detail,MDM,Policy Lifecycle Status
+31,New Convert from Package,Package Converted New Detail,MDM,Policy Lifecycle Status
+32,Package Convert to Others,Package Converted Lost Detail,MDM,Policy Lifecycle Status
+33,Lost Convert to Package,Package Converted Lost Detail,MDM,Policy Lifecycle Status
+34,Recurring,Policy Occurrence,MDM,Policy Lifecycle Status
+35,Non-recurring,Policy Occurrence,MDM,Policy Lifecycle Status
+36,Default,Fee Converted Lost Detail,MDM,Policy Lifecycle Status
+37,Default,Fee Converted New Detail,MDM,Policy Lifecycle Status
+38,Default,Fee Split Lost Detail,MDM,Policy Lifecycle Status
+39,Default,Fee Split New Detail,MDM,Policy Lifecycle Status
+40,Default,Package Converted Lost Detail,MDM,Policy Lifecycle Status
+41,Default,Package Converted New Detail,MDM,Policy Lifecycle Status
