@@ -1,0 +1,11 @@
+policy_id,policy_source_system_code,policy_source_system_instance_code,renewal_policy_id,renewal_policy_source_system_code,renewal_policy_source_system_instance_code
+POL001,FDW,FDW - 1,POL001R,FDW,FDW - 1
+POL002,FDW,FDW - 2,POL002R,FDW,FDW - 2
+POL003,FDW,FDW - 3,POL003R,FDW,FDW - 3
+POL004,AIM,AIM - 1,POL004R,AIM,AIM - 1
+POL005,IB_EDW,IB_EDW - 1,POL005R,IB_EDW,IB_EDW - 1
+POL006,OTHER,OTHER - 1,POL006R,OTHER,OTHER - 1
+POL007,FDW,FDW - 1,POL007R,AIM,AIM - 1
+POL008,AIM,AIM - 1,POL008R,FDW,FDW - 2
+POL009,FDW,FDW - 2,POL009R,IB_EDW,IB_EDW - 1
+POL010,IB_EDW,IB_EDW - 1,POL010R,FDW,FDW - 3

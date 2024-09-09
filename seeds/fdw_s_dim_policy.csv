@@ -1,0 +1,6 @@
+policy_key,extract_key,agency_system_policy_id,office_agency_system_key,client_key,broker_key,insurer_market_key,payee_market_key,product_line_key,producer1_employee_key,producer2_employee_key,csr1_employee_key,department_key,policy_number,policy_status,effective_date,expiration_date,inception_date,estimated_premium,epic_policy_type_key,annualized_endorsement_premium,written_premium,annualized_premium,contracted_expiration_date,bill_type_key,env_source_code
+1,101,POL001,2,1001,501,201,202,301,401,402,403,9001,POL-001,Active,2023-01-01,2024-01-01,2022-12-15,5000.00,701,100.00,5100.00,5200.00,2024-01-01,801,EPIC_US
+2,102,POL002,2,1002,502,202,203,302,404,405,406,9002,POL-002,Active,2023-02-01,2024-02-01,2023-01-15,6000.00,702,150.00,6150.00,6300.00,2024-02-01,802,EPIC_US
+3,103,POL003,2,1003,503,203,204,303,407,408,409,9003,POL-003,Inactive,2023-03-01,2024-03-01,2023-02-15,7000.00,703,200.00,7200.00,7400.00,2024-03-01,803,EPIC_US
+4,104,POL004,2,1004,504,204,205,304,410,411,412,9004,POL-004,Active,2023-04-01,2024-04-01,2023-03-15,8000.00,704,250.00,8250.00,8500.00,2024-04-01,804,EPIC_US
+5,105,POL005,2,1005,505,205,206,305,413,414,415,9005,POL-005,Active,2023-05-01,2024-05-01,2023-04-15,9000.00,705,300.00,9300.00,9600.00,2024-05-01,805,EPIC_US

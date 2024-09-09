@@ -9,6 +9,12 @@ config-version: 2
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
+vars:
+  # The `start_date` variable will be accessible in all resources
+  start_date: '2016-06-01'
+  source_system: 'my_default_source'
+
+
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
@@ -33,6 +39,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   abc_company:
-    Spartan:
-    materialized: view
+    UseCase5:
+      materialized: view
 

@@ -1,0 +1,11 @@
+source_system_code,column_name,column_value_from,column_value_to,policy_renewal_config_code
+FDW,PolicyNum,POL-001,POL-001-R1,RENEW001
+FDW,policy_num,POL-002,POL-002-R1,RENEW002
+FDW,PolicyNum,POL-003,POL-003-R1,RENEW003
+OTHER_SOURCE,policy_num,POL-004,POL-004-R1,RENEW004
+FDW,PolicyNum,POL-005,POL-005-R1,RENEW005
+FDW,policy_num,000123,123,RENEW006
+OTHER_SOURCE,PolicyNum,0000456,456,RENEW007
+FDW,policy_num,POL-007,POL-007,RENEW008
+OTHER_SOURCE,PolicyNum,POL-008,POL-008-R1,RENEW009
+FDW,policy_num,000000,0,RENEW010

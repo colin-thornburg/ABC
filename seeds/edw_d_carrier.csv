@@ -1,0 +1,6 @@
+carrier_key,carrier_id,carrier_name,carrier_status,carrier_master_parent_name,carrier_parent_payee_market_type_name,carrier_parent_intermediary_market_type_name,carrier_parent_tier_name
+1,CAR001,Insurer Alpha,Active,Other Parent,Carrier,Gallagher Entity,Tier 1
+2,CAR002,Insurer Beta,Active,Gallagher Global Brokerage-US,Intermediary,Gallagher Entity,Tier 2
+3,CAR003,Insurer Gamma,Active,Other Parent,Carrier,Gallagher Entity,Tier 1
+4,CAR004,Insurer Delta,Active,Other Parent,Carrier,External Entity,Tier 1
+5,CAR005,Certain Underwriters at Lloyd's (B1262BW0127720),Active,Other Parent,Intermediary,Gallagher Entity,Tier 1
