@@ -1,0 +1,3 @@
+policy_key,client_key,product_key,effective_date_key,expiration_date_key,written_premium_amt,annualized_premium_amt,commission_revenue_amt_usd,fee_revenue_amt_usd,insert_to_fact
+POL007,CLT007,PRD007,20240701,20250630,40000.00,48000.00,4000.00,800.00,true
+POL002,CLT002,PRD002,20240201,20250131,16000.00,19200.00,1600.00,320.00,true
