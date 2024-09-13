@@ -1,0 +1,14 @@
+version: 2
+
+exposures:
+  - name: claims_summary_exposure
+    type: dashboard
+    maturity: high
+    url: https://ClaimsDashboard.url
+    description: >
+      Exposure for the claims_summary model used in the claims dashboard.
+    depends_on:
+      - ref('claims_summary')
+    owner:
+      name: Your Name
+      email: David_the_Data_Engineer@abc.com
