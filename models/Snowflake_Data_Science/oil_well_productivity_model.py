@@ -39,7 +39,7 @@ def model(dbt, session):
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
 
-    # Register the model
+    # Register the model in Snowflake
     reg = Registry(session=session, database_name=dbt.this.database, schema_name=dbt.this.schema)
     model_name = 'oil_well_productivity_model'
 
@@ -52,6 +52,8 @@ def model(dbt, session):
 
     # Get the auto-generated version name
     version_name = model_version.version_name
+
+    # TODO: figure out how to set the new model as current version
 
     # Create a results DataFrame (all values converted to strings)
     results_df = session.create_dataframe([
