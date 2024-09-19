@@ -6,18 +6,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from snowflake.snowpark.functions import col
 from snowflake.ml.registry import Registry
 
-def get_next_version(reg, model_name):
-    try:
-        versions = reg.show_model(model_name)['versions']
-        if versions:
-            latest_version = max(versions)
-            version_number = int(latest_version.split('_')[1]) + 1
-        else:
-            version_number = 1
-    except:
-        version_number = 1
-    return f"v_{version_number}"
-
 def model(dbt, session):
     dbt.config(
         packages=['scikit-learn', 'pandas', 'numpy', 'snowflake-ml-python'],
@@ -34,14 +22,8 @@ def model(dbt, session):
     # Debugging: Print column names
     print("Available columns:", df.columns.tolist())
 
-    # Prepare features and target (now in uppercase)
+    # Prepare features and target (case sensitive names!!!)
     features = ['DEPTH', 'POROSITY', 'PERMEABILITY', 'THICKNESS', 'DEPTH_POROSITY_PRODUCT', 'PERM_THICKNESS_PRODUCT']
-    
-    # Debugging: Check which features are missing
-    missing_features = [f for f in features if f not in df.columns]
-    if missing_features:
-        print("Missing features:", missing_features)
-        raise ValueError(f"The following features are missing from the DataFrame: {missing_features}")
 
     X = df[features]
     y = df['IS_PRODUCTIVE']
@@ -60,14 +42,16 @@ def model(dbt, session):
     # Register the model
     reg = Registry(session=session, database_name=dbt.this.database, schema_name=dbt.this.schema)
     model_name = 'oil_well_productivity_model'
-    version_name = get_next_version(reg, model_name)
-    
-    reg.log_model(
+
+    # Log the model without specifying a version name
+    model_version = reg.log_model(
         model_name=model_name,
-        version_name=version_name,
         model=model,
         sample_input_data=X
     )
+
+    # Get the auto-generated version name
+    version_name = model_version.version_name
 
     # Create a results DataFrame (all values converted to strings)
     results_df = session.create_dataframe([
