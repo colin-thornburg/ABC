@@ -21,9 +21,10 @@ SELECT
     product_key,
     effective_date_key,
     expiration_date_key,
-    written_premium_amt,
-    annualized_premium_amt,
+    1 as written_premium_amt,
+
     commission_revenue_amt_usd,
+    'some data' as new_column,
     fee_revenue_amt_usd
 FROM {{ ref('temp_edw_f_policy_EPIC_US_FINAL') }}
 WHERE insert_to_fact
