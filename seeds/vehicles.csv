@@ -1,0 +1,6 @@
+vehicle_id,make,model,year,owner_id
+V001,Toyota,Camry,2020,O001
+V002,Honda,Civic,2019,O002
+V003,Ford,F-150,2021,O003
+V004,Chevrolet,Malibu,2018,O004
+V005,Nissan,Altima,2022,O005
